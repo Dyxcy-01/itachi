@@ -1,0 +1,95 @@
+/* CSS RESETS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216, 216, 216, 0.979);
+}
+header{
+    background-color: blue;
+    height: 73px;
+    position: relative;
+}
+
+header div{
+    background-color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    top: 12px;
+}
+header div h1{
+    color: blue;
+}
+
+main div img{
+    width: 100%;
+}
+
+.image-container{
+    position: relative;
+}
+.image-container div{
+    position: absolute;
+    background-color: #ffffff42;
+    border: 3px solid blue;
+    border-left: none;
+    padding: 20px;
+    color: blue;
+    top: 375px;
+    width:490px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.timeline{
+    background-color: #fff;
+    padding: 75px;
+    border-radius: 20px;
+    margin: 50px 0px;
+    width: 50%;
+    font-weight: bold;
+}
+.timeline h1{
+    text-decoration: underline;
+}
+.timeline ul{
+    font-size: 18px;
+    line-height: 40px;
+}
+.timeline ul ul{
+    margin-left: 20px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #000;
+    height: 70px;
+}
+footer div button{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    margin-top: 20px;
+}
+footer div button:hover{
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+
+/*UTILITIES*/
+.center{
+    place-self: center;
+}
+.blue{
+    color: blue;
+}
+.nowrap{
+    text-wrap: nowrap;
+}
